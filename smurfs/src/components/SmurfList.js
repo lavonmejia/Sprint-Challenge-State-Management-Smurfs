@@ -6,7 +6,7 @@ import Smurf from "./Smurf";
 const SmurfList = props => {
   return (
     <>
-      <h1>Reverse Jeopardy!</h1>
+      <h1>Get a Smurf!</h1>
       <button onClick={props.getData}>
         {props.isLoading ? (
           "Loading Smurfs"
